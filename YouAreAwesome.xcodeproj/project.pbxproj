@@ -14,6 +14,7 @@
 		D0A72FDA2D3E239300E987FC /* YouAreAwesomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72FD92D3E239300E987FC /* YouAreAwesomeTests.swift */; };
 		D0A72FE42D3E239300E987FC /* YouAreAwesomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72FE32D3E239300E987FC /* YouAreAwesomeUITests.swift */; };
 		D0A72FE62D3E239300E987FC /* YouAreAwesomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72FE52D3E239300E987FC /* YouAreAwesomeUITestsLaunchTests.swift */; };
+		D0D5550A2D3E34F800040E1A /* Segoe UI Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0D555092D3E34F800040E1A /* Segoe UI Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		D0A72FDF2D3E239300E987FC /* YouAreAwesomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouAreAwesomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A72FE32D3E239300E987FC /* YouAreAwesomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouAreAwesomeUITests.swift; sourceTree = "<group>"; };
 		D0A72FE52D3E239300E987FC /* YouAreAwesomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouAreAwesomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0D555092D3E34F800040E1A /* Segoe UI Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Bold.ttf"; sourceTree = "<group>"; };
+		D0D5550B2D3E352B00040E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +97,10 @@
 		D0A72FC72D3E238F00E987FC /* YouAreAwesome */ = {
 			isa = PBXGroup;
 			children = (
+				D0D5550B2D3E352B00040E1A /* Info.plist */,
 				D0A72FC82D3E238F00E987FC /* YouAreAwesomeApp.swift */,
 				D0A72FCA2D3E238F00E987FC /* ContentView.swift */,
+				D0D555092D3E34F800040E1A /* Segoe UI Bold.ttf */,
 				D0A72FCC2D3E239200E987FC /* Assets.xcassets */,
 				D0A72FCE2D3E239200E987FC /* Preview Content */,
 			);
@@ -232,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0A72FD02D3E239200E987FC /* Preview Assets.xcassets in Resources */,
+				D0D5550A2D3E34F800040E1A /* Segoe UI Bold.ttf in Resources */,
 				D0A72FCD2D3E239200E987FC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +426,7 @@
 				DEVELOPMENT_TEAM = 73GJTNM83B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YouAreAwesome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +456,7 @@
 				DEVELOPMENT_TEAM = 73GJTNM83B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YouAreAwesome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
